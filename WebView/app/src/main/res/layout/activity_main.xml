@@ -8,12 +8,22 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="83dp"
+        android:layout_width="471dp"
+        android:layout_height="239dp"
         android:text="Gagan Aggarwal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="179dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="139dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        tools:layout_editor_absoluteY="214dp" />
 
 </android.support.constraint.ConstraintLayout>
